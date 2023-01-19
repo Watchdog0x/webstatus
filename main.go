@@ -25,7 +25,7 @@ func main() {
 
 	var wg sync.WaitGroup
 
-	urls := []string{"https://mail.d-fender.net", "https://psono.d-fender.net", "https://d-fender.net"}
+	urls := []string{}
 
 	wg.Add((len(urls)))
 
